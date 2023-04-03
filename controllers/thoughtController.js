@@ -1,4 +1,5 @@
 const { User, Thought } = require('../models'); 
+
 module.exports = {
     getThought(req, res) {
       Thought.find()
@@ -19,7 +20,7 @@ module.exports = {
       Thought.create(req.body)
         .then(({_id}) => {
             return User.findOneAndUpdate(
-                { _id: req.params.userId },
+                { _id: req.body.userId },
                 { $push: { thoughts: _id } },
                 { new: true, }
             );
