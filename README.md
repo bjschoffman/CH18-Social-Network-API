@@ -16,5 +16,7 @@ Use the following to run:
 The walkthrough may be viewed here:
 https://drive.google.com/file/d/1DAWa-eUK-5KjW0KmTOj6VyFmnHQl6f1V/view?usp=sharing
 
+## Credits
+U of M Full Stack Boot Camp
 ## License
 MIT Licesne Copyright (c) 2023 bjschoffman
